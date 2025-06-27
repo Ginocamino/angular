@@ -1,0 +1,3 @@
+<p>Contatore Padre: {{contatore}}</p>
+<app-figlio-component [count]="contatore" (countChanged)="onConteggioCambiato($event)"></app-figlio-component>
+<app-figlio-2-component [count]="contatore" (countChanged)="onConteggioCambiato($event)"></app-figlio-2-component>
